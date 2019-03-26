@@ -1,20 +1,28 @@
 # Projeto Integrado I
 
-Trabalho da disciplina Projeto Integrado 1
+Project for the subject Integrated Project 1.
 
 ## Conversor de medidas
 
-A aplicação será um conversor de medidas na plataforma android
+The application will be a measurement converter for android
 
 
-### Instalação
+### Install
 
-Instalar de preferência o Android Studio e abrir o projeto
+After cloning the repository, open the folder 'projetointegrado' with Android Studio.
 
 
 ## Built With
 
-* [Android Studio](https://developer.android.com/studio/?hl=pt-br) 
+* [Android Studio](https://developer.android.com/studio/?hl=pt-br)
+
+## UX/UI Design
+
+* [Adobe XD](https://www.adobe.com/br/products/xd.html)
+
+## Managing Tools
+
+* [Trello](https://trello.com)
 
 ## Authors
 * **Andre Luiz de Oliveira Cunha**  - [Organela](https://github.com/Organela)
@@ -26,4 +34,4 @@ Instalar de preferência o Android Studio e abrir o projeto
 
 ## License
 
-This project is licensed under the GPL V3 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL V3 License - see the [LICENSE.md](LICENSE.md) file for details.
