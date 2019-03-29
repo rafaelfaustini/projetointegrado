@@ -14,7 +14,7 @@ Instalar de preferência o Android Studio e abrir o projeto
 
 ## Built With
 
-* [Android Studio](https://developer.android.com/studio/?hl=pt-br)
+* [Android Studio](https://developer.android.com/studio/?hl=pt-br) 
 
 ## Authors
 * **Andre Luiz de Oliveira Cunha**  - [Organela](https://github.com/Organela)
