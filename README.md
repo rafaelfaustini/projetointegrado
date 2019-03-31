@@ -2,6 +2,8 @@
 
 Project for the subject Integrated Project 1.
 
+![Tela Inicial da aplicação](https://raw.githubusercontent.com/rafaelfaustini/projetointegrado/master/Prototipagem%20UI%20%26%20UX/Resultado/drawable-ldpi/Tela%20Início.png)
+
 ## Conversor de medidas
 
 The application will be a measurement converter for android
