@@ -6,4 +6,4 @@ Aqui parte da equipe vai trabalhar na parte de análise do projeto
 
 - [x] Minimundo
 - [x] Levantamento de Requisitos
-- [ ] Diagrama de Classe Conceitual
+- [x] Diagrama de Classe Conceitual
