@@ -6,11 +6,9 @@ Project for the subject Integrated Project 1.
 
 The application will be a measurement converter for android
 
-
 ### Install
 
 After cloning the repository, open the folder 'projetointegrado' with Android Studio.
-
 
 ## Built With
 
