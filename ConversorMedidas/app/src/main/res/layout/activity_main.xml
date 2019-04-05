@@ -56,14 +56,15 @@
                                 android:layout_height="match_parent">
 
                                 <TextView
-                                    android:id="@+id/textView"
+                                    android:id="@+id/textoTemperatura"
+                                    android:gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="175dp"
-                                    android:layout_marginLeft="175dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginLeft="8dp"
                                     android:layout_marginTop="16dp"
-                                    android:layout_marginEnd="175dp"
-                                    android:layout_marginRight="175dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginRight="8dp"
                                     android:layout_marginBottom="16dp"
                                     android:text="Conversor de Temperatura"
                                     android:textColor="#FFF"
@@ -125,7 +126,8 @@
                                 android:layout_height="match_parent">
 
                                 <TextView
-                                    android:id="@+id/textView"
+                                    android:id="@+id/textoVelociadde"
+                                    android:gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="175dp"
@@ -193,7 +195,8 @@
                                 android:layout_height="match_parent">
 
                                 <TextView
-                                    android:id="@+id/textView"
+                                    android:id="@+id/textoDistancia"
+                                    android:gravity="center"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="175dp"
