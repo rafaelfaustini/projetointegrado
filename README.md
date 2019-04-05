@@ -10,8 +10,8 @@ Convert units for distance, temperature and speed in a quick and easy way with y
 ---
 <h1 class="unchanged rich-diff-level-one" align="center"> Installing </h1>
 
-```git clone https://github.com/rafaelfaustini/projetointegrado.git```<br>
-<p class="justify">After cloning the repository, open the folder 'projetointegrado' with Android Studio.</p>
+<p align="center"> <code>git clone https://github.com/rafaelfaustini/projetointegrado.git</code> </p><br>
+<p class="justify">After cloning the repository, open the folder 'projetointegrado' with Android Studio and have fun.</p>
 
 ---
 <h1 class="unchanged rich-diff-level-one" align="center"> Developing Stages </h1>
