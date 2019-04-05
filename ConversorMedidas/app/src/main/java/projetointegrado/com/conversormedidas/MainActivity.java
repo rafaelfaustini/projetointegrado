@@ -8,6 +8,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     private CardView cardDistancia;
+    private CardView cardVelocidade;
+    private CardView cardTemperatura;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,9 +23,36 @@ public class MainActivity extends AppCompatActivity {
                 abrirCalculadoraDistancia();
             }
         });
+        cardVelocidade = (CardView) findViewById(R.id.cardVelocidade);
+        cardVelocidade.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public  void onClick(View v){
+                abrirCalculadoraVelocidade();
+            }
+        });
+
+        cardTemperatura = (CardView) findViewById(R.id.cardTemperatura);
+        cardTemperatura.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public  void onClick(View v){
+                abrirCalculadoraTemperatura();
+            }
+        });
+
+
     }
     public void abrirCalculadoraDistancia(){
         Intent intent = new Intent(this, CalculadoraDistancia.class);
+        startActivity(intent);
+    }
+    public void abrirCalculadoraVelocidade(){
+        Intent intent = new Intent(this, CalculadoraVelocidade.class);
+        startActivity(intent);
+    }
+    public void abrirCalculadoraTemperatura(){
+        Intent intent = new Intent(this, CalculadoraTemperatura.class);
         startActivity(intent);
     }
 }
