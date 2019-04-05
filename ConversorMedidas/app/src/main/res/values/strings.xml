@@ -4,6 +4,10 @@
     <string name="cardVelocidade">Conversor de Velocidade</string>
     <string name="cardTempo">Conversor de Tempo</string>
 
+    <string name="descTermometro">Imagem de um termômetro</string>
+    <string name="descVelocidade">Imagem de um velocímetro</string>
+    <string name="descDistancia">Imagem de uma régua</string>
+
 
     <string name="conversor_distancia">Conversor de Distância</string>
     <string-array name="medidasDistancia">
