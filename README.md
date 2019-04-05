@@ -25,6 +25,12 @@ Check out our design progress such as our prototypes and design concepts [click 
 ## Implementation
 Check out our implementation progress, the android studio project [click here](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)  
 
+### Releases
+You can help us testing the project by clicking [here](https://github.com/rafaelfaustini/projetointegrado/releases), feel free to open issues to suggest new features and report bugs.
+
+### Changelog
+Check all the features made by the releases, click [here](changelog.md)
+
 ---
 <h1 class="unchanged rich-diff-level-one" align="center"> Used Tools </h1><br>
 
