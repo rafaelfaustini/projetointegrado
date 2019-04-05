@@ -26,7 +26,8 @@ Check out our design progress such as our prototypes and design concepts [click 
 Check out our implementation progress, the android studio project [click here](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)  
 
 ---
-<h1 class="unchanged rich-diff-level-one" align="center"> Used Tools </h1>
+<h1 class="unchanged rich-diff-level-one" align="center"> Used Tools </h1><br>
+
 ## IDE
 
 * [Android Studio](https://developer.android.com/studio/?hl=pt-br)
