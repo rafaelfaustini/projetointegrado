@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Conversor Medidas</string>
+
+
+    <string name="conversor_distancia">Conversor de Distância</string>
+    <string-array name="medidasDistancia">
+        <item>km</item>
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+    </string-array>
 </resources>
