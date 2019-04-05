@@ -2,7 +2,7 @@
     <string name="app_name">Conversor Medidas</string>
     <string name="cardDistancia">Conversor de Distância</string>
     <string name="cardVelocidade">Conversor de Velocidade</string>
-    <string name="cardTempo">Conversor de Tempo</string>
+    <string name="cardTemperatura">Conversor de Temperatura</string>
 
     <string name="descTermometro">Imagem de um termômetro</string>
     <string name="descVelocidade">Imagem de um velocímetro</string>
