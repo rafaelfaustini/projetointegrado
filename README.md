@@ -1,6 +1,6 @@
 <h1 class="unchanged rich-diff-level-one" align="center"> Projeto Integrado I </p>
 
-<p class="justify">This android app is part of Information Systems bachelor's Integrated Project 1 at Centro Universitário Unilasalle do Rio de Janeiro</p>
+This android app is part of Information Systems bachelor's Integrated Project 1 at Centro Universitário Unilasalle do Rio de Janeiro
 
 ![Conversor de Medidas](https://i.imgur.com/fq8QUtX.png)
 
