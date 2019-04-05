@@ -1,6 +1,6 @@
-## Projeto Integrado I
+<h1 class="unchanged rich-diff-level-one" align="center"> Projeto Integrado I </p>
 
-This android app is part of Information Systems bachelor's Integrated Project 1 at Centro Universitário Unilasalle do Rio de Janeiro
+<p class="justify">This android app is part of Information Systems bachelor's Integrated Project 1 at Centro Universitário Unilasalle do Rio de Janeiro</p>
 
 ![Conversor de Medidas](https://i.imgur.com/fq8QUtX.png)
 
@@ -8,13 +8,13 @@ This android app is part of Information Systems bachelor's Integrated Project 1 
 Convert units for distance, temperature and speed in a quick and easy way with your android phone.
 
 ---
-# Install
+<h1 class="unchanged rich-diff-level-one" align="center"> Installing </h1>
 
 ```git clone https://github.com/rafaelfaustini/projetointegrado.git```<br>
-After cloning the repository, open the folder 'projetointegrado' with Android Studio.
+<p class="justify">After cloning the repository, open the folder 'projetointegrado' with Android Studio.</p>
 
 ---
-# Developing Stages
+<h1 class="unchanged rich-diff-level-one" align="center"> Developing Stages </h1>
 
 ## Analysis
 Check out our analysis progress such as our requirements gathering and Class diagram [click here](https://github.com/rafaelfaustini/projetointegrado/tree/master/Análise%20%26%20Modelagem)
@@ -26,7 +26,7 @@ Check out our design progress such as our prototypes and design concepts [click 
 Check out our implementation progress, the android studio project [click here](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)  
 
 ---
-# Used Tools
+<h1 class="unchanged rich-diff-level-one" align="center"> Used Tools </h1>
 ## IDE
 
 * [Android Studio](https://developer.android.com/studio/?hl=pt-br)
