@@ -143,8 +143,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_distancia" />
-                            <entry key="sourceFile" value="D:\Users\rafae\Documents\GitHub\projetointegrado\ConversorMedidas\app\src\main\res\iconeDistancia\distancia.svg" />
+                            <entry key="outputName" value="ic_iconetermometro" />
+                            <entry key="sourceFile" value="D:\Users\rafae\Documents\GitHub\projetointegrado\ConversorMedidas\app\src\main\res\iconeTermometro.svg" />
                           </map>
                         </option>
                       </PersistentState>
