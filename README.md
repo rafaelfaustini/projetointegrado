@@ -1,4 +1,4 @@
-<h1 class="unchanged rich-diff-level-one" align="center"> Projeto Integrado I </p>
+<h1 class="unchanged rich-diff-level-one" align="center"> Projeto Integrado I </h1>
 
 This android app is part of Information Systems bachelor's Integrated Project 1 at Centro Universitário Unilasalle do Rio de Janeiro
 
