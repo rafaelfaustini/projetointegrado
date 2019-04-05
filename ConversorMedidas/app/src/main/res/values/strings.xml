@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">ConversorMedidas</string>
+    <string name="app_name">Conversor Medidas</string>
+    <string name="cardDistancia">Conversor de Distância</string>
+    <string name="cardVelocidade">Conversor de Velocidade</string>
+    <string name="cardTemperatura">Conversor de Temperatura</string>
+
+    <string name="descTermometro">Imagem de um termômetro</string>
+    <string name="descVelocidade">Imagem de um velocímetro</string>
+    <string name="descDistancia">Imagem de uma régua</string>
+
+
+    <string name="conversor_distancia">Conversor de Distância</string>
+    <string name="conversor_velocidade">Conversor de Velocidade</string>
+    <string name="conversor_temperatura">Conversor de Temperatura</string>
+    <string-array name="medidasDistancia">
+        <item>km</item>
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+    </string-array>
 </resources>
