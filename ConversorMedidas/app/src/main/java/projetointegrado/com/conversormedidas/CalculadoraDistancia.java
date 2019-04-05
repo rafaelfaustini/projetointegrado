@@ -10,6 +10,7 @@ public class CalculadoraDistancia extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle(R.string.conversor_distancia); // Troca o título ao mudar para a activity de distancia
 
         // Criação da droplist
