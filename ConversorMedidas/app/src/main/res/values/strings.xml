@@ -14,6 +14,8 @@
     <string name="conversor_temperatura">Conversor de Temperatura</string>
     <string-array name="medidasDistancia">
         <item>km</item>
+        <item>hm</item>
+        <item>dam</item>
         <item>m</item>
         <item>dm</item>
         <item>cm</item>
