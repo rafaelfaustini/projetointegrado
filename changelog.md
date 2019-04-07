@@ -3,7 +3,13 @@ Important implementation changes are documented here.
 
 ## [Dev Builds]
 
-# [1.0.1] - 2019-04-05
+# [2.0.0] - 2019-04-06
+### Added
+- Navigation between all activities
+- Distance measurement conversor
+- New units such as hectometer
+
+## [1.0.1] - 2019-04-05
 ### Added
 - Back button at Distance Converter Activity
 - Image description for accessibility
