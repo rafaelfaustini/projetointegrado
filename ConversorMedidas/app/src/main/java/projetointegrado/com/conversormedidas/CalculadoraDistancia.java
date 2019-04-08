@@ -45,6 +45,7 @@ public class CalculadoraDistancia extends AppCompatActivity {
 
 
         this.valor = (EditText) findViewById(R.id.editText2);
+        this.valor.requestFocus();
         lista = findViewById(R.id.lista);
         this.valor.addTextChangedListener(new TextWatcher() {
             @Override
