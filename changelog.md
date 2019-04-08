@@ -6,6 +6,7 @@ Important implementation changes are documented here.
 # [2.1.0] - 2019-04-08
 ### Added
 - Layout fidelity to the prototype
+- Copy result by clicking on it
 
 ### Changes
 - Distance values can now be decimal numbers

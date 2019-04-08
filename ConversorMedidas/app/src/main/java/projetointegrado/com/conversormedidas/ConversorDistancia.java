@@ -36,8 +36,6 @@ public class ConversorDistancia {
             }
 
             ArrayList<String> medidas = new ArrayList<>(Arrays.asList(vetor));
-            Log.i(medidas.toString(), value);
-            Log.i("Size: "+medidas.size()+ " POS: "+pos, value);
             return medidas;
 
     }
