@@ -60,7 +60,8 @@ public class CalculadoraDistancia extends AppCompatActivity {
                         array3.add(StringArray.get(i) + " " + c.get(i)); // Concat the two, and add it
                     }
 
-                    ArrayAdapter adapter = new ArrayAdapter<String>(CalculadoraDistancia.this, android.R.layout.simple_list_item_1, array3);
+                    MedidasAdapter adapter = new MedidasAdapter(CalculadoraDistancia.this,StringArray, c);
+                   //ArrayAdapter adapter = new ArrayAdapter<String>(CalculadoraDistancia.this, android.R.layout.simple_list_item_1, array3);
 
                     CalculadoraDistancia.this.lista.setAdapter(adapter);
 
