@@ -3,6 +3,14 @@ Important implementation changes are documented here.
 
 ## [Dev Builds]
 
+# [2.1.0] - 2019-04-08
+### Added
+- Layout fidelity to the prototype
+
+### Changes
+- Distance values can now be decimal numbers
+- Measurements are no longer abbreviated when results are displayed
+
 # [2.0.0] - 2019-04-06
 ### Added
 - Navigation between all activities

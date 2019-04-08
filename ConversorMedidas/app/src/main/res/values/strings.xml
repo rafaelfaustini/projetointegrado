@@ -12,7 +12,7 @@
     <string name="conversor_distancia">Conversor de Distância</string>
     <string name="conversor_velocidade">Conversor de Velocidade</string>
     <string name="conversor_temperatura">Conversor de Temperatura</string>
-    <string-array name="medidasDistancia">
+    <string-array name="medidasDistancia_abreviado">
         <item>km</item>
         <item>hm</item>
         <item>dam</item>
@@ -20,5 +20,14 @@
         <item>dm</item>
         <item>cm</item>
         <item>mm</item>
+    </string-array>
+    <string-array name="medidasDistancia_extenso">
+        <item>quilômetro</item>
+        <item>hectômetro</item>
+        <item>decâmetro</item>
+        <item>metro</item>
+        <item>decímetro</item>
+        <item>centímetro</item>
+        <item>milímetro</item>
     </string-array>
 </resources>

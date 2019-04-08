@@ -28,7 +28,7 @@ public class CalculadoraDistancia extends AppCompatActivity {
         this.unidade = (Spinner) findViewById(R.id.spinner1);
 
         ArrayAdapter<String> MyAdapter = new ArrayAdapter<String>(CalculadoraDistancia.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.medidasDistancia));
+                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.medidasDistancia_abreviado));
         MyAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         unidade.setAdapter(MyAdapter);
         // fim-droplist
@@ -48,7 +48,7 @@ public class CalculadoraDistancia extends AppCompatActivity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (s != null || !s.toString().isEmpty()) {
                     ArrayList<String> StringArray = CalculadoraDistancia.this.conversor.converter(CalculadoraDistancia.this.unidade.getSelectedItemPosition(), s.toString());
-                    String[] b = getResources().getStringArray(R.array.medidasDistancia);
+                    String[] b = getResources().getStringArray(R.array.medidasDistancia_extenso);
                     ArrayList<String> c = new ArrayList<>(Arrays.asList(b));
 
                     int length = StringArray.size();
