@@ -1,7 +1,7 @@
 # Changelog
 Important implementation changes are documented here.
 
-## [Dev Builds]
+# [Dev Builds]
 
 # [2.1.0] - 2019-04-08
 ### Added
@@ -16,7 +16,7 @@ Important implementation changes are documented here.
 - Infinite Scroll at the results
 - Results text used to appear when edit box was empty
 
-# [2.0.0] - 2019-04-06
+## [2.0.0] - 2019-04-06
 ### Added
 - Navigation between all activities
 - Distance measurement conversor
