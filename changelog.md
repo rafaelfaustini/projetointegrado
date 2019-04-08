@@ -12,6 +12,9 @@ Important implementation changes are documented here.
 - Distance values can now be decimal numbers
 - Measurements are no longer abbreviated when results are displayed
 
+### Fixed
+- Infinite Scroll at the results
+
 # [2.0.0] - 2019-04-06
 ### Added
 - Navigation between all activities
