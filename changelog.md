@@ -14,6 +14,7 @@ Important implementation changes are documented here.
 
 ### Fixed
 - Infinite Scroll at the results
+- Results text used to appear when edit box was empty
 
 # [2.0.0] - 2019-04-06
 ### Added

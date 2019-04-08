@@ -5,7 +5,9 @@ import android.content.ClipboardManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -52,7 +54,7 @@ public class CalculadoraDistancia extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s != null || !s.toString().isEmpty()) {
+                if (s != null || !s.toString().isEmpty() && !TextUtils.isEmpty(s.toString())) {
                     ArrayList<String> StringArray = CalculadoraDistancia.this.conversor.converter(CalculadoraDistancia.this.unidade.getSelectedItemPosition(), s.toString());
                     CalculadoraDistancia.this.resultado = StringArray;
                     String[] b = getResources().getStringArray(R.array.medidasDistancia_extenso);
@@ -71,6 +73,8 @@ public class CalculadoraDistancia extends AppCompatActivity {
                     CalculadoraDistancia.this.lista.setAdapter(adapter);
 
                 }
+                if(s.length() == 0)
+                lista.setAdapter(null);
             }
 
             @Override
