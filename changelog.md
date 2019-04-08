@@ -3,7 +3,20 @@ Important implementation changes are documented here.
 
 # [Dev Builds]
 
-# [2.1.0] - 2019-04-08
+# [2.2.0] - 2019-04-08
+### Added
+- Auto focus on textfield when opening the distance unit converter
+
+### changes
+- Better result formatting for Brazil (Separators and delimeter)
+- Long results are displayed in scientific notation
+- Small results are displayed in scientific notation
+
+### Fixed
+- Crash when inserting only decimal separator at distance unit converter
+- App not calculating when changing unit, requiring the user to rewrite the number
+
+## [2.1.0] - 2019-04-08
 ### Added
 - Layout fidelity to the prototype
 - Copy result by clicking on it
