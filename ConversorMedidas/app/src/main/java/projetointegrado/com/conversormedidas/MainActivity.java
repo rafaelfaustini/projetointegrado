@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         });
         cardVelocidade = (CardView) findViewById(R.id.cardVelocidade);
         cardVelocidade.setOnClickListener(new View.OnClickListener(){
-
             @Override
             public  void onClick(View v){
                 abrirCalculadoraVelocidade();

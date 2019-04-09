@@ -12,6 +12,7 @@
     <string name="conversor_distancia">Conversor de Distância</string>
     <string name="conversor_velocidade">Conversor de Velocidade</string>
     <string name="conversor_temperatura">Conversor de Temperatura</string>
+
     <string-array name="medidasDistancia_abreviado">
         <item>km</item>
         <item>hm</item>

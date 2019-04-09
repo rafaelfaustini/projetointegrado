@@ -53,7 +53,7 @@ public class ConversorDistancia {
                 ant = Double.toString(numero);
             }
 
-            for (int i = pos; i > -1; i--) { // Converte o que está depois de pos
+            for (int i = pos; i > -1; i--) { // Converte o que está antes de pos
                 if (i == pos) {
                     numero = Double.parseDouble(value);
                     d = formatarNumero(Double.parseDouble(value));
