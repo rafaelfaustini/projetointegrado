@@ -6,8 +6,8 @@ android {
         applicationId "projetointegrado.com.conversormedidas"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0" // version
+        versionCode 6
+        versionName "2.3.0" // version
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
