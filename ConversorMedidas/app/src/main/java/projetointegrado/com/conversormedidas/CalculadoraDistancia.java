@@ -1,6 +1,5 @@
 package projetointegrado.com.conversormedidas;
 
-import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +7,6 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -20,7 +18,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+
 
 public class CalculadoraDistancia extends AppCompatActivity {
     private Spinner unidade;
@@ -158,6 +156,7 @@ public class CalculadoraDistancia extends AppCompatActivity {
                 CalculadoraDistancia.this.copyText(calc.resultado.get(position));
             }
         });
-
+        //char separator = DecimalFormatSymbols.getInstance(new Locale("pt", "BR")).getDecimalSeparator(); --> Troca de . por , no input
+        //this.valor.setKeyListener(DigitsKeyListener.getInstance("0123456789" + separator));
     }
 }

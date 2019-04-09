@@ -19,10 +19,10 @@ public class ConversorDistancia {
 
         BigDecimal value = new BigDecimal(numero);
         BigDecimal grande = new BigDecimal(1000000000); // Teto de valor para não notação científica
-        BigDecimal pequeno = new BigDecimal(0.00000); // Chão
-        if(value.compareTo(grande) > 0){
+        BigDecimal pequeno = new BigDecimal(0.001); // Chão
+        if(value.compareTo(grande) > 0 || value.compareTo(pequeno) < 0){
             df = new DecimalFormat(
-                    "0.000E0",
+                    "0.00E0",
                     new DecimalFormatSymbols(new Locale("pt", "BR")));
         }
         String resultado = df.format(value.floatValue());

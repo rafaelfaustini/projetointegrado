@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/../changelog.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
         <counts>
           <entry key="dummy" value="18" />
           <entry key="gradle" value="21" />
-          <entry key="java" value="5118" />
+          <entry key="java" value="5227" />
           <entry key="txt" value="50" />
           <entry key="xml" value="967" />
         </counts>
@@ -80,7 +79,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="21" />
-          <entry key="JAVA" value="5118" />
+          <entry key="JAVA" value="5227" />
           <entry key="PLAIN_TEXT" value="68" />
           <entry key="XML" value="967" />
         </counts>
@@ -101,12 +100,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calculadora_distancia.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="638">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
               <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -141,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="-33">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#1101#1102#0" expanded="true" />
@@ -150,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="143" column="35" lean-forward="true" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
+            <state relative-caret-position="451">
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2547#2548#0" expanded="true" />
@@ -181,7 +180,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/MedidasAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-93">
+            <state relative-caret-position="-246">
               <caret column="46" selection-start-column="46" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -245,13 +244,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/adapter_view_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_calculadora_distancia.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="637" />
+    <option name="x" value="461" />
+    <option name="y" value="9" />
     <option name="width" value="1400" />
     <option name="height" value="997" />
   </component>
@@ -558,24 +558,6 @@
       </provider>
       <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="73" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/adapter_view_layout.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -584,31 +566,45 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="73" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calculadora_distancia.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="638">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
           <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="143" column="35" lean-forward="true" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
+        <state relative-caret-position="-33">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2547#2548#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#3670#4292#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/MedidasAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
+        <state relative-caret-position="-246">
           <caret column="46" selection-start-column="46" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -616,12 +612,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/CalculadoraDistancia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="451">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+            <element signature="e#3670#4292#0" expanded="true" />
+            <element signature="e#4291#4292#0" expanded="true" />
           </folding>
         </state>
       </provider>
