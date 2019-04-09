@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -16,8 +15,10 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
 
 public class CalculadoraDistancia extends AppCompatActivity {
     private Spinner unidade;
@@ -25,6 +26,67 @@ public class CalculadoraDistancia extends AppCompatActivity {
     private ConversorDistancia conversor;
     private ListView lista;
     private ArrayList<String> resultado;
+
+    private void copyText(String texto) {
+        final android.content.ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+        ClipData clipData = ClipData.newPlainText("Source Text", texto);
+        clipboardManager.setPrimaryClip(clipData);
+    }
+
+    private void calcular(CharSequence s){
+        ArrayList<String> StringArray = CalculadoraDistancia.this.conversor.converter(CalculadoraDistancia.this.unidade.getSelectedItemPosition(), s.toString());
+        CalculadoraDistancia.this.resultado = StringArray;
+        String[] b = getResources().getStringArray(R.array.medidasDistancia_extenso);
+        ArrayList<String> c = new ArrayList<>(Arrays.asList(b));
+
+        int length = StringArray.size();
+        if (length != c.size()) {
+        }
+        ArrayList<String> array3 = new ArrayList<String>(length);
+        for (int i = 0; i < length; i++) {
+            array3.add(StringArray.get(i) + " " + c.get(i));
+        }
+
+        MedidasAdapter adapter = new MedidasAdapter(CalculadoraDistancia.this,StringArray, c);
+
+        CalculadoraDistancia.this.lista.setAdapter(adapter);
+    }
+
+    private boolean canCalcular(CharSequence value){
+        if(!TextUtils.isEmpty(value)){
+
+        try {
+            Double.parseDouble(value.toString());
+            return true;
+        } catch(NumberFormatException e){
+            return false;
+        }
+    }
+    return false;
+    }
+
+    private void setValor(int id){
+      try{
+         EditText campoTexto = (EditText) findViewById(id);
+         this.valor = campoTexto;
+      } catch (Exception ex){
+
+      }
+    }
+
+    private void setLista(int id){
+        try{
+            ListView componente = (ListView) findViewById(id);
+            this.lista = componente;
+        } catch (Exception ex){
+
+        }
+    }
+
+    private EditText getValor(){
+        return this.valor;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,9 +105,28 @@ public class CalculadoraDistancia extends AppCompatActivity {
 
         this.conversor = new ConversorDistancia();
 
+        setValor(R.id.editText2);
+        getValor().requestFocus();
+        setLista(R.id.lista);
 
-        this.valor = (EditText) findViewById(R.id.editText2);
-        lista = findViewById(R.id.lista);
+        unidade.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener()
+        {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
+            {
+                String s = CalculadoraDistancia.this.valor.getText().toString();
+                CalculadoraDistancia calc = CalculadoraDistancia.this;
+                if(calc.canCalcular(s)){
+                    calc.calcular(s);
+                }
+                if(s.length() == 0)
+                    lista.setAdapter(null);
+            }
+            public void onNothingSelected(AdapterView<?> parent)
+            {
+
+            }
+        });
+
         this.valor.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -54,27 +135,12 @@ public class CalculadoraDistancia extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (s != null || !s.toString().isEmpty() && !TextUtils.isEmpty(s.toString())) {
-                    ArrayList<String> StringArray = CalculadoraDistancia.this.conversor.converter(CalculadoraDistancia.this.unidade.getSelectedItemPosition(), s.toString());
-                    CalculadoraDistancia.this.resultado = StringArray;
-                    String[] b = getResources().getStringArray(R.array.medidasDistancia_extenso);
-                    ArrayList<String> c = new ArrayList<>(Arrays.asList(b));
-
-                    int length = StringArray.size();
-                    if (length != c.size()) {
-                    }
-                    ArrayList<String> array3 = new ArrayList<String>(length);
-                    for (int i = 0; i < length; i++) {
-                        array3.add(StringArray.get(i) + " " + c.get(i));
-                    }
-
-                    MedidasAdapter adapter = new MedidasAdapter(CalculadoraDistancia.this,StringArray, c);
-
-                    CalculadoraDistancia.this.lista.setAdapter(adapter);
-
+                CalculadoraDistancia calc = CalculadoraDistancia.this;
+                if(calc.canCalcular(s)){
+                    calc.calcular(s);
                 }
                 if(s.length() == 0)
-                lista.setAdapter(null);
+                    lista.setAdapter(null);
             }
 
             @Override
@@ -85,12 +151,12 @@ public class CalculadoraDistancia extends AppCompatActivity {
         CalculadoraDistancia.this.lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(CalculadoraDistancia.this, "Texto copiado para area de transferencia",Toast.LENGTH_SHORT).show();
-                final android.content.ClipboardManager clipboardManager = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
-                ClipData clipData = ClipData.newPlainText("Source Text", CalculadoraDistancia.this.resultado.get(position));
-                clipboardManager.setPrimaryClip(clipData);
+                CalculadoraDistancia calc = CalculadoraDistancia.this;
+                Toast.makeText(calc, "Texto copiado para area de transferencia", Toast.LENGTH_SHORT).show();
+                CalculadoraDistancia.this.copyText(calc.resultado.get(position));
             }
         });
-
+        //char separator = DecimalFormatSymbols.getInstance(new Locale("pt", "BR")).getDecimalSeparator(); --> Troca de . por , no input
+        //this.valor.setKeyListener(DigitsKeyListener.getInstance("0123456789" + separator));
     }
 }
