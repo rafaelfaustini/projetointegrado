@@ -13,15 +13,11 @@ public class MainActivity extends AppCompatActivity {
     private CardView cardDistancia;
     private CardView cardVelocidade;
     private CardView cardTemperatura;
-    private ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Change ActionBar Color
-        actionBar = getSupportActionBar();
-        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimaryDark)));
 
         cardDistancia = (CardView) findViewById(R.id.cardDistancia);
         cardDistancia.setOnClickListener(new View.OnClickListener(){

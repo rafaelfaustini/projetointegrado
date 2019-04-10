@@ -2,10 +2,11 @@
 Important implementation changes are documented here.
 
 # [Dev Builds]
-# [2.3.0] - 2019-04-09
+# [2.3.0] - 2019-04-10
 ### Changes
 - Better definition menu images
 - New app icon
+- StatusBar color
 
 ## [2.2.0] - 2019-04-08
 ### Added
