@@ -31,4 +31,20 @@
         <item>centímetro</item>
         <item>milímetro</item>
     </string-array>
+
+
+    <string-array name="medidasVelocidade_abreviado">
+        <item>m/s</item>
+        <item>m/min</item>
+        <item>km/min</item>
+        <item>km/h</item>
+        <item>mph</item>
+    </string-array>
+    <string-array name="medidasVelocidade_extenso">
+        <item>metros/segundo</item>
+        <item>metros/minuto</item>
+        <item>quilômetros/minuto</item>
+        <item>quilômetros/hora</item>
+        <item>milhas/hora</item>
+    </string-array>
 </resources>
