@@ -34,4 +34,4 @@ Requisitos não funcionais
 
 # Diagrama de Classe Conceitual
 
- ![](Diagrama de Classe Conceitual.svg)
+![Class Diagram](Diagrama%20de%20Classe%20Conceitual.svg)
