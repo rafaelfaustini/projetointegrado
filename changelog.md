@@ -9,6 +9,8 @@ Important implementation changes are documented here.
 - Better definition menu images
 - New app icon
 - StatusBar color
+### Fixed
+- Problem with rounding small values near 0
 
 ## [2.2.0] - 2019-04-08
 ### Added
