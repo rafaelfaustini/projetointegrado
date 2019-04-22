@@ -3,6 +3,7 @@ package projetointegrado.com.conversormedidas;
 import android.util.Log;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,11 +21,26 @@ public class ConversorDistancia {
         BigDecimal value = new BigDecimal(numero);
         BigDecimal grande = new BigDecimal(1000000000); // Teto de valor para não notação científica
         BigDecimal pequeno = new BigDecimal(0.001); // Chão
+        BigDecimal zero = new BigDecimal(0);
+
+
+        if(numero == 0){
+            return String.valueOf(0);
+        }
         if(value.compareTo(grande) > 0 || value.compareTo(pequeno) < 0){
             df = new DecimalFormat(
                     "0.00E0",
                     new DecimalFormatSymbols(new Locale("pt", "BR")));
         }
+        if(df.format((value.floatValue())).contentEquals("0")){
+            value = value.setScale(4, RoundingMode.CEILING);
+            df = new DecimalFormat(
+                    "#,###.#####",
+                    new DecimalFormatSymbols(new Locale("pt", "BR")));
+            return df.format(value.floatValue());
+        }
+
+
         String resultado = df.format(value.floatValue());
         return resultado;
     }
