@@ -12,9 +12,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db9db8ee-dea4-4db0-9483-85417390f7f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java" afterDir="false" />
-    </list>
+    <list default="true" id="db9db8ee-dea4-4db0-9483-85417390f7f0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -546,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/projetointegrado/com/conversormedidas/ConversorDistancia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
