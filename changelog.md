@@ -2,7 +2,9 @@
 Important implementation changes are documented here.
 
 # [Dev Builds]
-# [2.3.0] - 2019-04-10
+# [2.3.0] - 2019-04-21
+### Added
+- Transition between activities
 ### Changes
 - Better definition menu images
 - New app icon
