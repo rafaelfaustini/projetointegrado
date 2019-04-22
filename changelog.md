@@ -2,12 +2,21 @@
 Important implementation changes are documented here.
 
 # [Dev Builds]
+# [2.3.0] - 2019-04-21
+### Added
+- Transition between activities
+### Changes
+- Better definition menu images
+- New app icon
+- StatusBar color
+### Fixed
+- Problem with rounding small values near 0
 
-# [2.2.0] - 2019-04-08
+## [2.2.0] - 2019-04-08
 ### Added
 - Auto focus on textfield when opening the distance unit converter
 
-### changes
+### Changes
 - Better result formatting for Brazil (Separators and delimeter)
 - Long results are displayed in scientific notation
 - Small results are displayed in scientific notation

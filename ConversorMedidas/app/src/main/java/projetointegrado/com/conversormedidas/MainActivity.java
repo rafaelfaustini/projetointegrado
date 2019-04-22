@@ -1,6 +1,7 @@
 package projetointegrado.com.conversormedidas;
 
 import android.content.Intent;
+import static maes.tech.intentanim.CustomIntent.customType;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         cardDistancia = (CardView) findViewById(R.id.cardDistancia);
         cardDistancia.setOnClickListener(new View.OnClickListener(){
 
@@ -25,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         });
         cardVelocidade = (CardView) findViewById(R.id.cardVelocidade);
         cardVelocidade.setOnClickListener(new View.OnClickListener(){
-
             @Override
             public  void onClick(View v){
                 abrirCalculadoraVelocidade();
@@ -46,13 +47,16 @@ public class MainActivity extends AppCompatActivity {
     public void abrirCalculadoraDistancia(){
         Intent intent = new Intent(this, CalculadoraDistancia.class);
         startActivity(intent);
+        customType(MainActivity.this,"fadein-to-fadeout");
     }
     public void abrirCalculadoraVelocidade(){
         Intent intent = new Intent(this, CalculadoraVelocidade.class);
         startActivity(intent);
+        customType(MainActivity.this,"fadein-to-fadeout");
     }
     public void abrirCalculadoraTemperatura(){
         Intent intent = new Intent(this, CalculadoraTemperatura.class);
         startActivity(intent);
+        customType(MainActivity.this,"fadein-to-fadeout");
     }
 }
