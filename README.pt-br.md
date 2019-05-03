@@ -20,9 +20,10 @@ Converte unidades de distância, temperatura e velocidade de maneira fácil com 
 Veja nosso progresso de análise, como nosso levantamento de requisitos e diagrama de classes da UML, [clique aqui](https://github.com/rafaelfaustini/projetointegrado/tree/master/Análise%20%26%20Modelagem)
 
 ## Design
-Veja noosso progresso de design, como nossos protótipos e conceitos de design, [clique aqui](https://github.com/rafaelfaustini/projetointegrado/tree/master/Prototipagem%20UI%20%26%20UX)
+Veja nosso progresso de design, como nossos protótipos e conceitos de design, [clique aqui](https://github.com/rafaelfaustini/projetointegrado/tree/master/Prototipagem%20UI%20%26%20UX)
 
 ## Implementação
+Veja nosso progresso na implementação, o projeto no android studio está disponível [aqui](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)
 Check out our implementation progress, the android studio project [click here](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)  
 
 ### Releases (Lançamentos)
