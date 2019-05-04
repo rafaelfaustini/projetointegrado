@@ -14,7 +14,7 @@ Converte unidades de distância, temperatura e velocidade de maneira fácil com 
 <p class="justify">Após clonar o repositório usando o comando acima, acesse a pasta 'projetointegrado' e abra o projeto com o Android Studio.
 
 ---
-<h1 class="unchanged rich-diff-level-one" align="center"> Developing Stages </h1>
+<h1 class="unchanged rich-diff-level-one" align="center"> Estágios de desenvolvimento </h1>
 
 ## Análise
 Veja nosso progresso de análise, como nosso levantamento de requisitos e diagrama de classes da UML, [clique aqui](https://github.com/rafaelfaustini/projetointegrado/tree/master/Análise%20%26%20Modelagem)
@@ -24,7 +24,6 @@ Veja nosso progresso de design, como nossos protótipos e conceitos de design, [
 
 ## Implementação
 Veja nosso progresso na implementação, o projeto no android studio está disponível [aqui](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)
-Check out our implementation progress, the android studio project [click here](https://github.com/rafaelfaustini/projetointegrado/tree/master/ConversorMedidas)  
 
 ### Releases (Lançamentos)
 Você pode nos ajudar testando o projeto [clicando aqui](https://github.com/rafaelfaustini/projetointegrado/releases), sinta-se livre para abrir issues para sugerir novas features e reportar bugs.
@@ -49,7 +48,7 @@ Veja as alterações, correções e novas features feitas nas releases [clique a
 ---
 
 # Autores Iniciais
-* **Andre Luiz de Oliveira Cunha**  - [Organela](https://github.com/Organela)
+* **André Luiz de Oliveira Cunha**  - [Organela](https://github.com/Organela)
 * **Rafael Faustini Costa de Oliveira**  - [rafaelfaustini](https://github.com/rafaelfaustini)
 * **Leonardo Romariz Silva**  - [leoromariz](https://github.com/leoromariz)
 * **Mônica Florenço de Lima**  - [monicafdl](https://github.com/monicafdl)
