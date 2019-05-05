@@ -36,7 +36,7 @@ Important implementation changes are documented here.
 
 ### Fixed
 - Infinite Scroll at the results
-- Results text used to appear when edit box was empty
+- Results' text used to appear when edit box was empty
 
 ## [2.0.0] - 2019-04-06
 ### Added
@@ -59,6 +59,5 @@ Important implementation changes are documented here.
 ### Added
 - Main Activity (Main menu) implemented as the prototype
 - Cards icons
-- Links to latest released version in previous versions.
 - Aplication Icon
 - Distance Converter Activity
