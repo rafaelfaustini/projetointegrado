@@ -39,6 +39,7 @@ public class CalculadoraVelocidade extends AppCompatActivity {
     private Medida atual;
     private ListView lista ;
     private EditText valor;
+    private Spinner spinner;
 
     private String formatarNumero(Double numero){
 
@@ -86,29 +87,30 @@ public class CalculadoraVelocidade extends AppCompatActivity {
         return false;
     }
 
-    public void calcular(Double valor){
+    public void calcular(Double v){
         ArrayList<String> unidades= new ArrayList<>();
         Double referencia=0.0;
         Conversor conversorAtual;
-        Medida ant;
+        atual = (Medida) spinner.getSelectedItem();
+        Medida ant=atual;
         int temp=0;
         for(int i = 0; i < medidas.size(); i++) {
             conversorAtual = conversor.get(i);
             if (conversorAtual.getOrigem() == atual) {
-                referencia = conversorAtual.converterInverso(valor);
+                referencia = conversorAtual.converterInverso(v);
             }
         }
         Log.i("Referencia", referencia.toString());
         conversorAtual = conversor.get(0);
-        ant = atual;
         atual = conversorAtual.getDestino();
+        resultado.clear();
         for(int i = 0; i < medidas.size(); i++) {
             Double r;
             conversorAtual = conversor.get(i);
             if (conversorAtual.getOrigem() == ant) {
-                r = conversorAtual.converter(referencia);
-            } else{
                 r = conversorAtual.converterInverso(referencia);
+            } else{
+                r = conversorAtual.converter(referencia);
             }
             Log.i("Atual ", atual.toString());
 
@@ -158,7 +160,7 @@ public class CalculadoraVelocidade extends AppCompatActivity {
         setTitle(R.string.conversor_velocidade); // Troca o título ao mudar para a activity de velocidade
         valor = findViewById(R.id.valorVelocidade);
         lista = findViewById(R.id.listaVelocidade);
-        Spinner spinner = findViewById(R.id.unidadesVelocidade);
+        spinner = findViewById(R.id.unidadesVelocidade);
         ArrayAdapter<Medida> adapter = new ArrayAdapter<Medida>(this, android.R.layout.simple_spinner_item, getMedidas());
         spinner.setAdapter(adapter);
 
@@ -169,6 +171,10 @@ public class CalculadoraVelocidade extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Medida unidade = (Medida) parent.getSelectedItem();
                 CalculadoraVelocidade.this.atual = unidade;
+                String texto = valor.getText().toString();
+                if(canCalcular(texto)){
+                    CalculadoraVelocidade.this.calcular(Double.valueOf(texto));
+                }
             }
 
             @Override
@@ -176,7 +182,7 @@ public class CalculadoraVelocidade extends AppCompatActivity {
 
             }
         });
-//a
+
 
         valor.addTextChangedListener(new TextWatcher() {
             @Override
