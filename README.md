@@ -32,7 +32,7 @@ You can help us testing the project by [clicking here](https://github.com/rafael
 Check all the features made by the releases, [click here](changelog.md)
 
 ### Upgrade Versioning
-As you probably have noticied, the (pre)release versions number have 3 numbers separated,
+As you probably have noticied, the (pre)release versions have 3 numbers separated by periods,
 
 e.g <code>2.3.5</code>
 
