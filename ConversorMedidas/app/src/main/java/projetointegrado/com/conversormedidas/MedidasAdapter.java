@@ -42,6 +42,9 @@ public class MedidasAdapter extends BaseAdapter {
 
         TextView textView1 = (TextView)convertView.findViewById(R.id.valor);
         TextView textView2 = (TextView)convertView.findViewById(R.id.unidade);
+        if(position >= valores.size() || position >= unidades.size()){
+            return convertView;
+        }
         textView1.setText(valores.get(position));
         textView2.setText(unidades.get(position));
         return convertView;
