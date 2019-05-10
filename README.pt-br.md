@@ -31,6 +31,12 @@ Você pode nos ajudar testando o projeto [clicando aqui](https://github.com/rafa
 ### Changelog
 Veja as alterações, correções e novas features feitas nas releases [clique aqui](changelog.md)
 
+### Versionamento de Atualizações
+Como você deve ter notado, as versões (pré)lançamentos possuem 3 números separados por pontos,
+
+ex: <code>2.3.5</code>
+
+O primeiro número (2) é incrementado toda vez que implementações são feitas (Implementações muito importantes, partes do núcleo da ideia da aplicação), o segundo número (3) é incrementado quando há novas alterações e finalmente o terceiro número (5) é incrementado quando uma correção foi lançada sem modificações notáveis
 ---
 <h1 class="unchanged rich-diff-level-one" align="center"> Ferramentas utilizadas </h1><br>
 
