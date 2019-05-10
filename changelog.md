@@ -2,7 +2,15 @@
 Important implementation changes are documented here.
 
 # [Dev Builds]
-# [2.3.0] - 2019-04-21
+# [3.0.0] - 2019-05-10
+### Added
+- Velocity Converter
+### Changes
+- Classes functions changed (Some methods moved from one class to other)
+### Fixed
+- Rounding problems
+
+## [2.3.0] - 2019-04-21
 ### Added
 - Transition between activities
 ### Changes
