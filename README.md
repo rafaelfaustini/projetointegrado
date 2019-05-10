@@ -31,6 +31,14 @@ You can help us testing the project by [clicking here](https://github.com/rafael
 ### Changelog
 Check all the features made by the releases, [click here](changelog.md)
 
+### Upgrade Versioning
+As you probably have noticied, the (pre)release versions number have 3 numbers separated,
+
+e.g <code>2.3.5</code>
+
+The first number (2) is incremented every time implementations are made (Very important implementations, part of the core idea of the application), the second number (3) is incremented when there were new changes and finally the third number (5) is incremented when a fix is released without noticiable changes.
+
+
 ---
 <h1 class="unchanged rich-diff-level-one" align="center"> Used Tools </h1><br>
 
