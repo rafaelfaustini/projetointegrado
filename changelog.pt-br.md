@@ -2,7 +2,16 @@
 Importantes modificações de implementação são documentados aqui.
 
 # [Builds de Desenvolvimento]
-# [2.3.0] - 21-04-2019
+# [3.0.0] - 10-05-2019
+### Added
+- Conversor de Velocidade
+### Changes
+- A função de algumas classes mudaram ( Alguns métodos foram movidos de uma classe a outra)
+- Classes functions changed (Some methods moved from one class to other)
+### Fixed
+- Problemas de arredondamento de resultado
+
+## [2.3.0] - 21-04-2019
 ### Adições
 - Transições entre telas da aplicação (activities)
 ### Modificações
