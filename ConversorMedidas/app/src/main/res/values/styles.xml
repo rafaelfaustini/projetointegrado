@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:spinnerItemStyle">@style/spinnerEstilo</item>
+        <item name="colorControlNormal">@color/textPrimary</item>
+    </style>
+    <style name="spinnerEstilo" parent="android:Widget.ListView.DropDown">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
 </resources>
