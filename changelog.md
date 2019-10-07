@@ -2,6 +2,13 @@
 Important implementation changes are documented here.
 
 # [Dev Builds]
+# [3.1.0] - 2019-10-07
+### Added
+- Night Mode (AMOLED Friendly)
+### Changes
+- Layout tweaks
+### Fixed
+- Input focus fix
 # [3.0.0] - 2019-05-10
 ### Added
 - Velocity Converter
