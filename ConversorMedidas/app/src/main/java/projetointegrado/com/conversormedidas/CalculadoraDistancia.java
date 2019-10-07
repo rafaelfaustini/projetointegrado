@@ -100,7 +100,10 @@ public class CalculadoraDistancia extends AppCompatActivity {
         ArrayAdapter<String> MyAdapter = new ArrayAdapter<String>(CalculadoraDistancia.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.medidasDistancia_abreviado));
         MyAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
         unidade.setAdapter(MyAdapter);
+
+
         // fim-droplist
 
         this.conversor = new ConversorDistancia();

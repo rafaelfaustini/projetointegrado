@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context=".CalculadoraTemperatura">
 
 
     <ListView
-        android:id="@+id/lista"
+        android:id="@+id/listaTemperatura"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -37,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Spinner
-            android:id="@+id/spinner1"
+            android:id="@+id/unidadesTemperatura"
             android:layout_width="128dp"
             android:layout_height="wrap_content"
 
@@ -55,7 +56,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/valorTemperatura"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -64,6 +65,7 @@
             android:layout_marginBottom="8dp"
             android:ems="10"
             android:inputType="numberDecimal"
+            android:textColor="@color/textPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/spinner1"
             app:layout_constraintStart_toStartOf="parent"

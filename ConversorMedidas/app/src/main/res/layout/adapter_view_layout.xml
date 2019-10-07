@@ -7,12 +7,13 @@
 
 
     <TextView
-        android:gravity="left|center_vertical"
-        android:text="TextView1"
+        android:id="@+id/valor"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/valor"
-        android:layout_weight="66.6"/>
+        android:layout_weight="66.6"
+        android:gravity="left|center_vertical"
+        android:text="TextView1"
+        android:textColor="@color/textSecondary" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -26,7 +27,8 @@
             android:layout_height="63dp"
             android:layout_below="@+id/textView2"
             android:gravity="center"
-            android:text="TextView3" />
+            android:text="TextView3"
+            android:textColor="@color/textSecondary" />
     </LinearLayout>
 
 </LinearLayout>
